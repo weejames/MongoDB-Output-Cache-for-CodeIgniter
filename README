@@ -23,3 +23,5 @@ Usage:
 
 The functions are syntactically compatible with the existing cache functionality and caches are still enabled using $this->output->cache(n) within your controllers. Cached pages will still persist 
 until expiration, or the cache is cleared.
+
+Note: Unlike the CodeIgniter library, this modification also takes into account the contents of the $_GET and $_POST arrays when caching data.
